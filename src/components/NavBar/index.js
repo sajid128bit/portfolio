@@ -25,7 +25,7 @@ class NavBar extends Component {
       )
     }
     return (
-      <button>
+      <button
         className="list-logo-text" onClick={this.changeBody}
         type="button" >
         <img src={iconUrl} alt={name} className="image-icon" />
